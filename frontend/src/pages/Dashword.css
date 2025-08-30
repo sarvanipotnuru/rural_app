@@ -1,0 +1,55 @@
+.dashboard-container {
+  padding: 20px;
+  max-width: 900px;
+  margin: auto;
+  font-family: Arial, sans-serif;
+}
+
+.dashboard-container h2, h3 {
+  color: #333;
+}
+
+.bookings ul, .services-list, .products-list {
+  list-style: none;
+  padding: 0;
+}
+
+.bookings li {
+  background: #f9f9f9;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 0 5px #ccc;
+}
+
+.booking-form {
+  margin-top: 20px;
+}
+
+.booking-form select, .booking-form input {
+  padding: 10px;
+  margin: 5px 0;
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.booking-form button {
+  padding: 10px;
+  background: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.booking-form button:hover {
+  background: #45a049;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .bookings li {
+    font-size: 14px;
+  }
+}
